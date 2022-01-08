@@ -1,0 +1,41 @@
+1641285643355	geckodriver	INFO	Listening on 127.0.0.1:49858
+1641285646586	geckodriver	INFO	Listening on 127.0.0.1:49867
+1641285871462	geckodriver	INFO	Listening on 127.0.0.1:49883
+1641285874580	geckodriver	INFO	Listening on 127.0.0.1:49892
+1641287927270	geckodriver	INFO	Listening on 127.0.0.1:55495
+1641287930341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileVJv0QC"
+1641287930933	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileVJv0QC\\search.json.mozlz4", (void 0)))
+1641287933967	Marionette	INFO	Listening on port 55503
+1641287934275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641287941388	Marionette	INFO	Stopped listening on port 55503
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 596: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://gre/modules/FileUtils.jsm, line 81: 
+1641287942471	geckodriver	INFO	Listening on 127.0.0.1:54095
+1641287945486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilecca7fq"
+1641288087675	geckodriver	INFO	Listening on 127.0.0.1:54232
+1641288090731	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileaMjaKT"
+1641288091283	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileaMjaKT\\search.json.mozlz4", (void 0)))
+1641288094197	Marionette	INFO	Listening on port 54240
+1641288094673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641288100694	Marionette	INFO	Stopped listening on port 54240
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\user\AppData\Local\Temp\rust_mozprofileaMjaKT\protections.sqlite
+1641288101501	geckodriver	INFO	Listening on 127.0.0.1:54288
+1641288104543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileHnLlvW"
+1641288105017	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileHnLlvW\\search.json.mozlz4", (void 0)))
+1641288108034	Marionette	INFO	Listening on port 54296
+1641288108457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641288120322	Marionette	INFO	Stopped listening on port 54296
+JavaScript error: https://admin-demo.nopcommerce.com/lib_npm/jquery/jquery.min.js, line 2: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
